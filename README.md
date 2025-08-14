@@ -9,3 +9,9 @@ The loop is really simple:
 -if wall is hit by ray stop
 -else let the ray continue
 Once we stop the loop we take the distance and draw the wall with the correct height.
+
+But now how do we make the ray walk? We could go the easy way and simple add a constant value to it's x and y axis, checking each time if we hit a wall. With a small enough value this might work fine, but if we are about to spend time on something let's also try to learn something.
+
+[ cos(a) -sin(a) ]
+[ sin(a)  cos(a) ]
+
